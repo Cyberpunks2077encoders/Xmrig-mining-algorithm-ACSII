@@ -1,0 +1,1018 @@
+---
+name: 'Feature requesrl review my coding '
+about: 'Suggest an idea for this project help and donations thnx '
+title: No bug's in the Programming languages anvailable in for xmrig monero mining
+  and
+labels: ''
+assignees: ''
+
+---
+
+import org.json.JSONObject;
+
+public class Config {
+    public static void main(String[] args) {
+        String jsonString = "{\"config\": {\"api\":{\"id\":\"Worker3777\",\"worker-id\":null},\"http\":{\"enabled\":true,\"host\":\"127.0.0.1\",\"port\":50080,\"access-token\":\"XMRigForAndroid\",\"restricted\":false},\"autosave\":true,\"background\":true,\"colors\":true,\"title\":true,\"randomx\":{\"init\":-1,\"init-avx2\":-1,\"mode\":\"auto\",\"1gb-pages\":true,\"rdmsr\":true,\"wrmsr\":false,\"cache_qos\":false,\"numa\":true,\"scratchpad_prefetch_mode\":1},\"cpu\":{\"enabled\":true,\"huge-pages\":true,\"huge-pages-jit\":true,\"hw-aes\":true,\"priority\":2,\"memory-pool\":true,\"yield\":true,\"argon2-impl\":\"default\",\"astrobwt-max-size\":550,\"astrobwt-avx\":false,\"astrobwt-avx2\":false,\"argon2\":[0,1,2,3,4,5,6,7],\"astrobwt\":[0,1,2,3,4,5,6,7],\"astrobwt/v2\":[0,1,2,3,4,5,6,7],\"cn\":[0,1,2,3,4,5,6,7],\"cn-heavy\":[0,1,2,3,4,5,6,7],\"cn-lite\":[0,1,2,3,4,5,6,7],\"cn-pico\":[0,1,2,3,4,5,6,7],\"cn/upx2\":[0,1,2,3,4,5,6,7],\"ghostrider\":[[8,0],[8,1],[8,2],[8,3],[8,4],[8,5],[8,6],[8,7]],\"rx\":[0,1,2,3,4,5,6,7],\"rx/wow\":[0,1,2,3,4,5,6,7],\"cn-lite/0\":false,\"cn/0\":false,\"rx/arq\":\"rx/wow\",\"rx/keva\":\"rx/wow\"},\"log-file\":\"detailed.log\",\"donate-level\":3,\"donate-over-proxy\":1,\"pools\":[{\"algo\":\"rx/0\",\"coin\":\"XMR\",\"url\":\"xmrpool.eu:3333\",\"user\":\"45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000\",\"pass\":\"x\",\"rig-id\":\"Stealther93\",\"nicehash\":false,\"keepalive\":true,\"enabled\":true,\"tls\":false,\"wss\":false,\"tls-fingerprint\":null,\"daemon\":false,\"socks5\":null,\"self-select\":null,\"submit-to-origin\":false},{\"algo\":\"rx/0\",\"coin\":\"XMR\",\"url\":\"xmrpool.eu:5555\",\"user\":\"45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000\",\"pass\":\"x\",\"rig-id\":\"Stealther93\",\"nicehash\":false,\"keepalive\":true,\"enabled\":true,\"tls\":false,\"wss\":false,\"tls-fingerprint\":null,\"daemon\":false,\"socks5\":null,\"self-select\":null,\"submit-to-origin\":false}],\"retries\":5,\"retry-pause\":5,\"print-time\":10,\"syslog\":false,\"tls\":{\"enabled\":false,\"protocols\":null,\"cert\":null,\"cert_key\":null,\"ciphers\":null,\"ciphersuites\":null,\"dhparam\":null},\"dns\":{\"ipv6\":false,\"ttl\":30},\"user-agent\":null,\"verbose\":0,\"watch\":true,\"pause-on-battery\":false,\"pause-on-active\":false}}";
+        JSONObject jsonObject = new JSONObject(jsonString);
+        JSONObject config = jsonObject.getJSONObject("config");
+        // Use 'config' object for further processing
+    }
+}
+
+Shell
+Bash
+#!/bin/bash
+
+config='{
+    "api": {
+        "id": "Worker3777",
+        "worker-id": null
+    },
+    "http": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 50080,
+        "access-token": "XMRigForAndroid",
+        "restricted": false
+    },
+    "autosave": true,
+    "background": true,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": -1,
+        "mode": "auto",
+        "1gb-pages": true,
+        "rdmsr": true,
+        "wrmsr": false,
+        "cache_qos": false,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": true,
+        "hw-aes": true,
+        "priority": 2,
+        "memory-pool": true,
+        "yield": true,
+        "argon2-impl": "default",
+        "astrobwt-max-size": 550,
+        "astrobwt-avx": false,
+        "astrobwt-avx2": false,
+        "argon2": [0, 1, 2, 3, 4, 5, 6, 7],
+        "astrobwt": [0, 1, 2, 3, 4, 5, 6, 7],
+        "astrobwt/v2": [0, 1, 2, 3, 4, 5, 6, 7],
+        "cn": [0, 1, 2, 3, 4, 5, 6, 7],
+        "cn-heavy": [0, 1, 2, 3, 4, 5, 6, 7],
+        "cn-lite": [0, 1, 2, 3, 4, 5, 6, 7],
+        "cn-pico": [0, 1, 2, 3, 4, 5, 6, 7],
+        "cn/upx2": [0, 1, 2, 3, 4, 5, 6, 7],
+        "ghostrider": [
+            [8, 0],
+            [8, 1],
+            [8, 2],
+            [8, 3],
+            [8, 4],
+            [8, 5],
+            [8, 6],
+            [8, 7]
+        ],
+        "rx": [0, 1, 2, 3, 4, 5, 6, 7],
+        "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7],
+        "cn-lite/0": false,
+        "cn/0": false,
+        "rx/arq": "rx/wow",
+        "rx/keva": "rx/wow"
+    },
+    "log-file": "detailed.log",
+    "donate-level": 3,
+    "donate-over-proxy": 1,
+    "pools": [
+        {
+            "algo": "rx/0",
+            "coin": "XMR",
+            "url": "xmrpool.eu:3333",
+            "user": "45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000",
+            "pass": "x",
+            "rig-id": "Stealther93",
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "wss": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        },
+        {
+            "algo": "rx/0",
+            "coin": "XMR",
+            "url": "xmrpool.eu:5555",
+            "user": "45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000",
+            "pass": "x",
+            "rig-id": "Stealther93",
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "wss": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        }
+    ],
+    "retries": 5,
+    "retry-pause": 5,
+    "print-time": 10,
+    "syslog": false,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true,
+    "pause-on-battery": false,
+    "pause-on-active": false
+}'
+
+echo "$config"
+
+Cop
+C++
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string config = R"({
+    "config": {
+        "api": {
+            "id": "Worker3777",
+            "worker-id": null
+        },
+        "http": {
+            "enabled": true,
+            "host": "127.0.0.1",
+            "port": 50080,
+            "access-token": "XMRigForAndroid",
+            "restricted": false
+        },
+        "autosave": true,
+        "background": true,
+        "colors": true,
+        "title": true,
+        "randomx": {
+            "init": -1,
+            "init-avx2": -1,
+            "mode": "auto",
+            "1gb-pages": true,
+            "rdmsr": true,
+            "wrmsr": false,
+            "cache_qos": false,
+            "numa": true,
+            "scratchpad_prefetch_mode": 1
+        },
+        "cpu": {
+            "enabled": true,
+            "huge-pages": true,
+            "huge-pages-jit": true,
+            "hw-aes": true,
+            "priority": 2,
+            "memory-pool": true,
+            "yield": true,
+            "argon2-impl": "default",
+            "astrobwt-max-size": 550,
+            "astrobwt-avx": false,
+            "astrobwt-avx2": false,
+            "argon2": [0, 1, 2, 3, 4, 5, 6, 7],
+            "astrobwt": [0, 1, 2, 3, 4, 5, 6, 7],
+            "astrobwt/v2": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn-heavy": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn-lite": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn-pico": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn/upx2": [0, 1, 2, 3, 4, 5, 6, 7],
+            "ghostrider": [
+                [8, 0],
+                [8, 1],
+                [8, 2],
+                [8, 3],
+                [8, 4],
+                [8, 5],
+                [8, 6],
+                [8, 7]
+            ],
+            "rx": [0, 1, 2, 3, 4, 5, 6, 7],
+            "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn-lite/0": false,
+            "cn/0": false,
+            "rx/arq": "rx/wow",
+            "rx/keva": "rx/wow"
+        },
+        "log-file": "detailed.log",
+        "donate-level": 3,
+        "donate-over-proxy": 1,
+        "pools": [
+            {
+                "algo": "rx/0",
+                "coin": "XMR",
+                "url": "xmrpool.eu:3333",
+                "user": "45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000",
+                "pass": "x",
+                "rig-id": "Stealther93",
+                "nicehash": false,
+                "keepalive": true,
+                "enabled": true,
+                "tls": false,
+                "wss": false,
+                "tls-fingerprint": null,
+                "daemon": false,
+                "socks5": null,
+                "self-select": null,
+                "submit-to-origin": false
+            },
+            {
+                "algo": "rx/0",
+                "coin": "XMR",
+                "url": "xmrpool.eu:5555",
+                "user": "45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000",
+                "pass": "x",
+                "rig-id": "Stealther93",
+                "nicehash": false,
+                "keepalive": true,
+                "enabled": true,
+                "tls": false,
+                "wss": false,
+                "tls-fingerprint": null,
+                "daemon": false,
+                "socks5": null,
+                "self-select": null,
+                "submit-to-origin": false
+            }
+        ],
+        "retries": 5,
+        "retry-pause": 5,
+        "print-time": 10,
+        "syslog": false,
+        "tls": {
+            "enabled": false,
+            "protocols": null,
+            "cert": null,
+            "cert_key": null,
+            "ciphers": null,
+            "ciphersuites": null,
+            "dhparam": null
+        },
+        "dns": {
+            "ipv6": false,
+            "ttl": 30
+        },
+        "user-agent": null,
+        "verbose": 0,
+        "watch": true,
+        "pause-on-battery": false,
+        "pause-on-active": false
+    }
+})";
+    
+    std::cout << config << std::endl;
+    return 0;
+}
+
+Python 
+Python 
+import json
+
+config = {
+    "config": {
+        "api": {
+            "id": "Worker3777",
+            "worker-id": None
+        },
+        "http": {
+            "enabled": True,
+            "host": "127.0.0.1",
+            "port": 50080,
+            "access-token": "XMRigForAndroid",
+            "restricted": False
+        },
+        "autosave": True,
+        "background": True,
+        "colors": True,
+        "title": True,
+        "randomx": {
+            "init": -1,
+            "init-avx2": -1,
+            "mode": "auto",
+            "1gb-pages": True,
+            "rdmsr": True,
+            "wrmsr": False,
+            "cache_qos": False,
+            "numa": True,
+            "scratchpad_prefetch_mode": 1
+        },
+        "cpu": {
+            "enabled": True,
+            "huge-pages": True,
+            "huge-pages-jit": True,
+            "hw-aes": True,
+            "priority": 2,
+            "memory-pool": True,
+            "yield": True,
+            "argon2-impl": "default",
+            "astrobwt-max-size": 550,
+            "astrobwt-avx": False,
+            "astrobwt-avx2": False,
+            "argon2": [0, 1, 2, 3, 4, 5, 6, 7],
+            "astrobwt": [0, 1, 2, 3, 4, 5, 6, 7],
+            "astrobwt/v2": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn-heavy": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn-lite": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn-pico": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn/upx2": [0, 1, 2, 3, 4, 5, 6, 7],
+            "ghostrider": [
+                [8, 0],
+                [8, 1],
+                [8, 2],
+                [8, 3],
+                [8, 4],
+                [8, 5],
+                [8, 6],
+                [8, 7]
+            ],
+            "rx": [0, 1, 2, 3, 4, 5, 6, 7],
+            "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7],
+            "cn-lite/0": False,
+            "cn/0": False,
+            "rx/arq": "rx/wow",
+            "rx/keva": "rx/wow"
+        },
+        "log-file": "detailed.log",
+        "donate-level": 3,
+        "donate-over-proxy": 1,
+        "pools": [
+            {
+                "algo": "rx/0",
+                "coin": "XMR",
+                "url": "xmrpool.eu:3333",
+                "user": "45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000",
+                "pass": "x",
+                "rig-id": "Stealther93",
+                "nicehash": False,
+                "keepalive": True,
+                "enabled": True,
+                "tls": False,
+                "wss": False,
+                "tls-fingerprint": None,
+                "daemon": False,
+                "socks5": None,
+                "self-select": None,
+                "submit-to-origin": False
+            },
+            {
+                "algo": "rx/0",
+                "coin": "XMR",
+                "url": "xmrpool.eu:5555",
+                "user": "45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000",
+                "pass": "x",
+                "rig-id": "Stealther93",
+                "nicehash": False,
+                "keepalive": True,
+                "enabled": True,
+                "tls": False,
+                "wss": False,
+                "tls-fingerprint": None,
+                "daemon": False,
+                "socks5": None,
+                "self-select": None,
+                "submit-to-origin": False
+            }
+        ],
+        "retries": 5,
+        "retry-pause": 5,
+        "print-time": 10,
+        "syslog": False,
+        "tls": {
+            "enabled": False,
+            "protocols": None,
+            "cert": None,
+            "cert_key": None,
+            "ciphers": None,
+            "ciphersuites": None,
+            "dhparam": None
+        },
+        "dns": {
+            "ipv6": False,
+            "ttl": 30
+        },
+        "user-agent": None,
+        "verbose": 0,
+        "watch": True,
+        "pause-on-battery": False,
+        "pause-on-active": False
+    }
+}
+
+# Convert to JSON string
+config_json = json.dumps(config, indent=4)
+print(config_json)
+
+Ruby 
+Ruby 
+require 'json'
+
+config = {
+  "config" => {
+    "api" => {
+      "id" => "Worker3777",
+      "worker-id" => nil
+    },
+    "http" => {
+      "enabled" => true,
+      "host" => "127.0.0.1",
+      "port" => 50080,
+      "access-token" => "XMRigForAndroid",
+      "restricted" => false
+    },
+    "autosave" => true,
+    "background" => true,
+    "colors" => true,
+    "title" => true,
+    "randomx" => {
+      "init" => -1,
+      "init-avx2" => -1,
+      "mode" => "auto",
+      "1gb-pages" => true,
+      "rdmsr" => true,
+      "wrmsr" => false,
+      "cache_qos" => false,
+      "numa" => true,
+      "scratchpad_prefetch_mode" => 1
+    },
+    "cpu" => {
+      "enabled" => true,
+      "huge-pages" => true,
+      "huge-pages-jit" => true,
+      "hw-aes" => true,
+      "priority" => 2,
+      "memory-pool" => true,
+      "yield" => true,
+      "argon2-impl" => "default",
+      "astrobwt-max-size" => 550,
+      "astrobwt-avx" => false,
+      "astrobwt-avx2" => false,
+      "argon2" => [0, 1, 2, 3, 4, 5, 6, 7],
+      "astrobwt" => [0, 1, 2, 3, 4, 5, 6, 7],
+      "astrobwt/v2" => [0, 1, 2, 3, 4, 5, 6, 7],
+      "cn" => [0, 1, 2, 3, 4, 5, 6, 7],
+      "cn-heavy" => [0, 1, 2, 3, 4, 5, 6, 7],
+      "cn-lite" => [0, 1, 2, 3, 4, 5, 6, 7],
+      "cn-pico" => [0, 1, 2, 3, 4, 5, 6, 7],
+      "cn/upx2" => [0, 1, 2, 3, 4, 5, 6, 7],
+      "ghostrider" => [
+        [8, 0],
+        [8, 1],
+        [8, 2],
+        [8, 3],
+        [8, 4],
+        [8, 5],
+        [8, 6],
+        [8, 7]
+      ],
+      "rx" => [0, 1, 2, 3, 4, 5, 6, 7],
+      "rx/wow" => [0, 1, 2, 3, 4, 5, 6, 7],
+      "cn-lite/0" => false,
+      "cn/0" => false,
+      "rx/arq" => "rx/wow",
+      "rx/keva" => "rx/wow"
+    },
+    "log-file" => "detailed.log",
+    "donate-level" => 3,
+    "donate-over-proxy" => 1,
+    "pools" => [
+      {
+        "algo" => "rx/0",
+        "coin" => "XMR",
+        "url" => "xmrpool.eu:3333",
+        "user" => "45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000",
+        "pass" => "x",
+        "rig-id" => "Stealther93",
+        "nicehash" => false,
+        "keepalive" => true,
+        "enabled" => true,
+        "tls" => false,
+        "wss" => false,
+        "tls-fingerprint" => nil,
+        "daemon" => false,
+        "socks5" => nil,
+        "self-select" => nil,
+        "submit-to-origin" => false
+      },
+      {
+        "algo" => "rx/0",
+        "coin" => "XMR",
+        "url" => "xmrpool.eu:5555",
+        "user" => "45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000",
+        "pass" => "x",
+        "rig-id" => "Stealther93",
+        "nicehash" => false,
+        "keepalive" => true,
+        "enabled" => true,
+        "tls" => false,
+        "wss" => false,
+        "tls-fingerprint" => nil,
+        "daemon" => false,
+        "socks5" => nil,
+        "self-select" => nil,
+        "submit-to-origin" => false
+      }
+    ],
+    "retries" => 5,
+    "retry-pause" => 5,
+    "print-time" => 10,
+    "syslog" => false,
+    "tls" => {
+      "enabled" => false,
+      "protocols" => nil,
+      "cert" => nil,
+      "cert_key" => nil,
+      "ciphers" => nil,
+      "ciphersuites" => nil,
+      "dhparam" => nil
+    },
+    "dns" => {
+      "ipv6" => false,
+      "ttl" => 30
+    },
+    "user-agent" => nil,
+    "verbose" => 0,
+    "watch" => true,
+    "pause-on-b
+HTML 
+hmtl
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMRig Configuration</title>
+</head>
+<body>
+    <script>
+        const config = {
+            "config": {
+                "api": {
+                    "id": "Worker3777",
+                    "worker-id": null
+                },
+                "http": {
+                    "enabled": true,
+                    "host": "127.0.0.1",
+                    "port": 50080,
+                    "access-token": "XMRigForAndroid",
+                    "restricted": false
+                },
+                "autosave": true,
+                "background": true,
+                "colors": true,
+                "title": true,
+                "randomx": {
+                    "init": -1,
+                    "init-avx2": -1,
+                    "mode": "auto",
+                    "1gb-pages": true,
+                    "rdmsr": true,
+                    "wrmsr": false,
+                    "cache_qos": false,
+                    "numa": true,
+                    "scratchpad_prefetch_mode": 1
+                },
+                "cpu": {
+                    "enabled": true,
+                    "huge-pages": true,
+                    "huge-pages-jit": true,
+                    "hw-aes": true,
+                    "priority": 2,
+                    "memory-pool": true,
+                    "yield": true,
+                    "argon2-impl": "default",
+                    "astrobwt-max-size": 550,
+                    "astrobwt-avx": false,
+                    "astrobwt-avx2": false,
+                    "argon2": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "astrobwt": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "astrobwt/v2": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "cn": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "cn-heavy": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "cn-lite": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "cn-pico": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "cn/upx2": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "ghostrider": [
+                        [8, 0],
+                        [8, 1],
+                        [8, 2],
+                        [8, 3],
+                        [8, 4],
+                        [8, 5],
+                        [8, 6],
+                        [8, 7]
+                    ],
+                    "rx": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "cn-lite/0": false,
+                    "cn/0": false,
+                    "rx/arq": "rx/wow",
+                    "rx/keva": "rx/wow"
+                },
+                "log-file": "detailed.log",
+                "donate-level": 3,
+                "donate-over-proxy": 1,
+                "pools": [
+                    {
+                        "algo": "rx/0",
+                        "coin": "XMR",
+                        "url": "xmrpool.eu:3333",
+                        "user": "45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000",
+                        "pass": "x",
+                        "rig-id": "Stealther93",
+                        "nicehash": false,
+                        "keepalive": true,
+                        "enabled": true,
+                        "tls": false,
+                        "wss": false,
+                        "tls-fingerprint": null,
+                        "daemon": false,
+                        "socks5": null,
+                        "self-select": null,
+                        "submit-to-origin": false
+                    },
+                    {
+                        "algo": "rx/0",
+                        "coin": "XMR",
+                        "url": "xmrpool.eu:5555",
+                        "user": "45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000",
+                        "pass": "x",
+                        "rig-id": "Stealther93",
+                        "nicehash": false,
+                        "keepalive": true,
+                        "enabled": true,
+                        "tls": false,
+                        "wss": false,
+                        "tls-fingerprint": null,
+                        "daemon": false,
+                        "socks5": null,
+                        "self-select": null,
+                        "submit-to-origin": false
+                    }
+                ],
+                "retries": 5,
+                "retry-pause": 5,
+                "print-time": 10,
+                "syslog": false,
+                "tls": {
+                    "enabled": false,
+                    "protocols": null,
+                    "cert": null,
+                    "cert_key": null,
+                    "ciphers": null,
+                    "ciphersuites": null,
+                    "dhparam": null
+                },
+                "dns": {
+                    "ipv6": false,
+                    "ttl": 30
+                },
+                "user-agent": null,
+                "verbose": 0,
+                "watch": true,
+                "pause-on-battery": false,
+                "pause-on-active": false
+            }
+        };
+
+        console.log(config);
+    </script>
+</body>
+</html>
+
+"Java2.**
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+public class Config {
+    public static void main(String[] args) {
+        String jsonString = "{\"config\": {\"api\":{\"id\":\"Worker3777\",\"worker-id\":null},\"http\":{\"enabled\":true,\"host\":\"127.0.0.1\",\"port\":50080,\"access-token\":\"XMRigForAndroid\",\"restricted\":false},\"autosave\":true,\"background\":true,\"colors\":true,\"title\":true,\"randomx\":{\"init\":-1,\"init-avx2\":-1,\"mode\":\"auto\",\"1gb-pages\":true,\"rdmsr\":true,\"wrmsr\":false,\"cache_qos\":false,\"numa\":true,\"scratchpad_prefetch_mode\":1},\"cpu\":{\"enabled\":true,\"huge-pages\":true,\"huge-pages-jit\":true,\"hw-aes\":true,\"priority\":2,\"memory-pool\":true,\"yield\":true,\"argon2-impl\":\"default\",\"astrobwt-max-size\":550,\"astrobwt-avx\":false,\"astrobwt-avx2\":false,\"argon2\":[0,1,2,3,4,5,6,7],\"astrobwt\":[0,1,2,3,4,5,6,7],\"astrobwt/v2\":[0,1,2,3,4,5,6,7],\"cn\":[0,1,2,3,4,5,6,7],\"cn-heavy\":[0,1,2,3,4,5,6,7],\"cn-lite\":[0,1,2,3,4,5,6,7],\"cn-pico\":[0,1,2,3,4,5,6,7],\"cn/upx2\":[0,1,2,3,4,5,6,7],\"ghostrider\":[[8,0],[8,1],[8,2],[8,3],[8,4],[8,5],[8,6],[8,7]],\"rx\":[0,1,2,3,4,5,6,7],\"rx/wow\":[0,1,2,3,4,5,6,7],\"cn-lite/0\":false,\"cn/0\":false,\"rx/arq\":\"rx/wow\",\"rx/keva\":\"rx/wow\"},\"log-file\":\"detailed.log\",\"donate-level\":3,\"donate-over-proxy\":1,\"pools\":[{\"algo\":\"rx/0\",\"coin\":\"XMR\",\"url\":\"xmrpool.eu:3333\",\"user\":\"45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000\",\"pass\":\"x\",\"rig-id\":\"Stealther93\",\"nicehash\":false,\"keepalive\":true,\"enabled\":true,\"tls\":false,\"wss\":false,\"tls-fingerprint\":null,\"daemon\":false,\"socks5\":null,\"self-select\":null,\"submit-to-origin\":false},{\"algo\":\"rx/0\",\"coin\":\"XMR\",\"url\":\"xmrpool.eu:5555\",\"user\":\"45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000\",\"pass\":\"x\",\"rig-id\":\"Stealther93\",\"nicehash\":false,\"keepalive\":true,\"enabled\":true,\"tls\":false,\"wss\":false,\"tls-fingerprint\":null,\"daemon\":false,\"socks5\":null,\"self-select\":null,\"submit-to-origin\":false}],\"retries\":5,\"retry-pause\":5,\"print-time\":10,\"syslog\":false,\"tls\":{\"enabled\":false,\"protocols\":null,\"cert\":null,\"cert_key\":null,\"ciphers\":null,\"ciphersuites\":null,\"dhparam\":null},\"dns\":{\"ipv6\":false,\"ttl\":30},\"user-agent\":null,\"verbose\":0,\"watch\":true,\"pause-on-battery\":false,\"pause-on-active\":false}}";
+
+        // Parse JSON string
+        JSONObject jsonObject = new JSONObject(jsonString);
+        JSONObject config = jsonObject.getJSONObject("config");
+
+        // Accessing various fields in the JSON object
+        JSONObject apiConfig = config.getJSONObject("api");
+        String apiId = apiConfig.getString("id");
+        String workerId = apiConfig.optString("worker-id", "default-worker-id");
+
+        JSONObject httpConfig = config.getJSONObject("http");
+        boolean httpEnabled = httpConfig.getBoolean("enabled");
+        String httpHost = httpConfig.getString("host");
+        int httpPort = httpConfig.getInt("port");
+        String accessToken = httpConfig.getString("access-token");
+
+        boolean autosave = config.getBoolean("autosave");
+        boolean background = config.getBoolean("background");
+        boolean colors = config.getBoolean("colors");
+        boolean title = config.getBoolean("title");
+
+        JSONObject randomxConfig = config.getJSONObject("randomx");
+        int init = randomxConfig.getInt("init");
+        boolean oneGbPages = randomxConfig.getBoolean("1gb-pages");
+
+        JSONObject cpuConfig = config.getJSONObject("cpu");
+        boolean cpuEnabled = cpuConfig.getBoolean("enabled");
+        boolean hugePages = cpuConfig.getBoolean("huge-pages");
+        int priority = cpuConfig.getInt("priority");
+
+        // Accessing arrays
+        JSONArray argon2Array = cpuConfig.getJSONArray("argon2");
+        int[] argon2 = new int[argon2Array.length()];
+        for (int i = 0; i < argon2Array.length(); i++) {
+            argon2[i] = argon2Array.getInt(i);
+        }
+
+        JSONArray poolsArray = config.getJSONArray("pools");
+        for (int i = 0; i < poolsArray.length(); i++) {
+            JSONObject pool = poolsArray.getJSONObject(i);
+            String algo = pool.getString("algo");
+            String coin = pool.getString("coin");
+            String url = pool.getString("url");
+            System.out.println("Pool " + (i + 1) + ": " + algo + ", " + coin + ", " + url);
+        }
+
+        // Output some of the parsed data
+        System.out.println("API ID: " + apiId);
+        System.out.println("HTTP Host: " + httpHost);
+        System.out.println("HTTP Port: " + httpPort);
+        System.out.println("Autosave: " + autosave);
+        System.out.println("Background: " + background);
+    }
+}
+*"XML*":=
+<config>
+  <api>
+    <id>Worker3777</id>
+    <worker-id/>
+  </api>
+  <http>
+    <enabled>true</enabled>
+    <host>127.0.0.1</host>
+    <port>50080</port>
+    <access-token>XMRigForAndroid</access-token>
+    <restricted>false</restricted>
+  </http>
+  <autosave>true</autosave>
+  <background>true</background>
+  <colors>true</colors>
+  <title>true</title>
+  <randomx>
+    <init>-1</init>
+    <init-avx2>-1</init-avx2>
+    <mode>auto</mode>
+    <one-gb-pages>true</one-gb-pages>
+    <rdmsr>true</rdmsr>
+    <wrmsr>false</wrmsr>
+    <cache-qos>false</cache-qos>
+    <numa>true</numa>
+    <scratchpad-prefetch-mode>1</scratchpad-prefetch-mode>
+  </randomx>
+  <cpu>
+    <enabled>true</enabled>
+    <huge-pages>true</huge-pages>
+    <huge-pages-jit>true</huge-pages-jit>
+    <hw-aes>true</hw-aes>
+    <priority>2</priority>
+    <memory-pool>true</memory-pool>
+    <yield>true</yield>
+    <argon2-impl>default</argon2-impl>
+    <astrobwt-max-size>550</astrobwt-max-size>
+    <astrobwt-avx>false</astrobwt-avx>
+    <astrobwt-avx2>false</astrobwt-avx2>
+    <argon2>
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+      <value>7</value>
+    </argon2>
+    <astrobwt>
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+      <value>7</value>
+    </astrobwt>
+    <astrobwt-v2>
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+      <value>7</value>
+    </astrobwt-v2>
+    <cn>
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+      <value>7</value>
+    </cn>
+    <cn-heavy>
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+      <value>7</value>
+    </cn-heavy>
+    <cn-lite>
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+      <value>7</value>
+    </cn-lite>
+    <cn-pico>
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+      <value>7</value>
+    </cn-pico>
+    <cn-upx2>
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+      <value>7</value>
+    </cn-upx2>
+    <ghostrider>
+      <value>
+        <value>8</value>
+        <value>0</value>
+      </value>
+      <value>
+        <value>8</value>
+        <value>1</value>
+      </value>
+      <value>
+        <value>8</value>
+        <value>2</value>
+      </value>
+      <value>
+        <value>8</value>
+        <value>3</value>
+      </value>
+      <value>
+        <value>8</value>
+        <value>4</value>
+      </value>
+      <value>
+        <value>8</value>
+        <value>5</value>
+      </value>
+      <value>
+        <value>8</value>
+        <value>6</value>
+      </value>
+      <value>
+        <value>8</value>
+        <value>7</value>
+      </value>
+    </ghostrider>
+    <rx>
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+      <value>7</value>
+    </rx>
+    <rx-wow>
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+      <value>7</value>
+    </rx-wow>
+    <cn-lite-0>false</cn-lite-0>
+    <cn-0>false</cn-0>
+    <rx-arq>rx/wow</rx-arq>
+    <rx-keva>rx/wow</rx-keva>
+  </cpu>
+  <log-file>detailed.log</log-file>
+  <donate-level>3</donate-level>
+  <donate-over-proxy>1</donate-over-proxy>
+  <pools>
+    <pool>
+      <algo>rx/0</algo>
+      <coin>XMR</coin>
+      <url>xmrpool.eu:3333</url>
+      <user>45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000</user>
+      <pass>x</pass>
+      <rig-id>Stealther93</rig-id>
+      <nicehash>false</nicehash>
+      <keepalive>true</keepalive>
+      <enabled>true</enabled>
+      <tls>false</tls>
+      <wss>false</wss>
+      <tls-fingerprint/>
+      <daemon>false</daemon>
+      <socks5/>
+      <self-select/>
+      <submit-to-origin>false</submit-to-origin>
+    </pool>
+    <pool>
+      <algo>rx/0</algo>
+      <coin>XMR</coin>
+      <url>xmrpool.eu:5555</url>
+      <user>45jSKAQm6YhT6QBi5H5MbFNN1ccFKY8T2Fyh4zBQAq7p5inyDbC3BbaQfaJDqDoaroYYkrhGByyd8CUbpdCXqsCcQFVbbVf.27000</user>
+      <pass>x</pass>
+      <rig-id>Stealther93</rig-id>
+      <nicehash>false</nicehash>
+      <keepalive>true</keepalive>
+      <enabled>true</enabled>
+      <tls>false</tls>
+      <wss>false</wss>
+      <tls-fingerprint/>
+      <daemon>false</daemon>
+      <socks5/>
+      <self-select/>
+      <submit-to-origin>false</submit-to-origin>
+    </pool>
+  </pools>
+  <retries>5</retries>
+  <retry-pause>5</retry-pause>
+  <print-time>10</print-time>
+  <syslog>false</syslog>
+  <tls>
+    <enabled>false</enabled>
+    <protocols/>
+    <cert/>
+    <cert-key/>
+    <ciphers/>
+    <ciphersuites/>
+    <dhparam/>
+  </tls>
+  <dns>
+    <ipv6>false</ipv6>
+    <ttl>30</ttl>
+  </dns>
+  <user-agent/>
+  <verbose>0</verbose>
+  <watch>true</watch>
+  <pause-on-battery>false</pause-on-battery>
+  <pause-on-active>false</pause-on-active>
+</config>
